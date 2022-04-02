@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/79b3c29748.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/animate.css/animate.min.css">
+    <link rel="icon" type="image/icon" href="./assets/imgs/perfil.jpg">
+    <title> Desafio 1</title>
+</head>
+
+<body style="background-image: url(./assets/imgs/fondo.jpg); background-repeat: no-repeat; background-size: cover;">
+    <div class="main-container container">
+        <nav class="navbar navbar-expand-lg navbar-light mt-5">
+            <a class="navbar-brand" href="index.html">
+                <h2 class="text-white animate__bounceIn"><i class="fa-solid fa-user"></i> SG</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white animate__bounceInLeft" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-5">
+                    <a class="nav-item nav-link active text-white" href="#home"><i class="fa-solid fa-house"></i> Home </a>
+                    <a class="nav-item nav-link text-white" href="#skills"><i class="fa-solid fa-fill-drip"></i> Skills</a>
+                    <a class="nav-item nav-link text-white" href="https://github.com/santigrisafi"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                    <a class="nav-item nav-link text-white" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container main-container" id="home">
+        <div class="text-center mt-5 pt-5 text-white">
+            <img src="./assets/imgs/perfil.jpg" alt="perfil" class="img-perfil">
+            <h1 style="color: snow;" class="animate__shakeX">Santiago Grisafi</h1>
+            <h5 class="animate__swing">Analista Universitario de Sistemas</h5>
+        </div>
+    </div>
+    <div class="container main-container mt-5 pt-5 animate__pulse" id="skills">
+        <div class="row mt-5 text-white mb-5 text-dark card-skills rounded" style="background-color: aliceblue;">
+            <div class="col text-center mt-5 mb-3">
+                <img src="./assets/imgs/avg.png" alt="logo-skills" class="logo-skills">
+            </div>
+            <div class="col mt-5">
+                <table class="table dark-table mb-3">
+                    <thead>
+                        <th></th>
+                        <th><i class="fa-solid fa-kitchen-set"></i> Conocimientos</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-solid fa-screwdriver-wrench"></i> JavaScript</td>
+                            <td><i class="fa-solid fa-screwdriver-wrench"></i> TypeScript</td>
+                            <td><i class="fa-solid fa-screwdriver-wrench"></i> Java</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-screwdriver-wrench"></i> MySQL
+                            </td>
+                            <td>
+                                <i class="fa-solid fa-screwdriver-wrench"></i> Spring Boot
+                            </td>
+                            <td>
+                                <i class="fa-solid fa-screwdriver-wrench"></i> Angular
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-screwdriver-wrench"></i> HTML/CSS</td>
+                            <td><i class="fa-solid fa-screwdriver-wrench"></i> Bootstrap 4.6.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="btn btn-primary btn-block mb-3" href="https://drive.google.com/file/d/1-29j0h2MgUjmWgSswxIlzHRBa4LYX8HN/view?usp=sharing"><i class="fa-solid fa-download"></i> Descargar CV</a>
+            </div>
+        </div>
+    </div>
+    <footer class="w-100 py-4 flex-shrink-0 animate__tada text-white" id="contact">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white"><i class="fa-solid fa-location-dot"></i> Localizacion: </h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d38209.69735546622!2d-64.10123874101068!3d-32.16939942594445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1648858328682!5m2!1sen!2sar"
+                        width="250" height="130" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3"><i class="fa-solid fa-database"></i> Mis Datos</h5>
+                    <ul class="list-unstyled text-muted">
+                        <h6>Email:</h6>
+                        <li><a href="mailto:sngrisa@gmail.com"><i class="fa-solid fa-at"></i> sngrisa@gmail.com</a></li>
+                        <h6 class="mt-1">Telefono:</h6>
+                        <li><a href="https://web.whatsapp.com/"><i class="fa-solid fa-phone"></i> (+54) 3571-609526</a></li>
+                    </ul> 
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3"><i class="fa-solid fa-share"></i> Redes Sociales</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="https://www.facebook.com/sngrisafi"><i class="fa-solid fa-square-share-nodes"></i>
+                                Facebook</a></li>
+                        <li><a href="https://twitter.com/sngrisafi"><i class="fa-solid fa-square-share-nodes"></i>
+                                Twitter</a></li>
+                        <li><a href="https://www.instagram.com/s.grisafi/"><i
+                                    class="fa-solid fa-square-share-nodes"></i> Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/santiago-grisafi/"><i
+                                    class="fa-solid fa-square-share-nodes"></i> Linked In</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <p class="small text-muted mb-0">&copy; 2022 Santiago Grisafi. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
